@@ -1,14 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import './User.css'
 import Card from '../../common/squareBox/card';
-import { Navigate } from 'react-router-dom';
 
 const User = () => {
-
-  const logOut = () => {
-    localStorage.removeItem("token");
-    Navigate('http://localhost:3000/login')
-  };
 
   const [user, setuser] = useState({});
   const funcuser = async () => {
@@ -79,9 +73,7 @@ const User = () => {
                 alt=''
                 className='user-image' />
             </div>
-            {localStorage.getItem("token") && (
-              <button className='button-homepage' onClick={logOut}>Log Out</button>
-            )}
+            
           </div>
         </div>
       </div>

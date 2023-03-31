@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.css";
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import IndianStockCompanies from '../../../assets/IndianStockCompanies';
 
 const Navbar = () => {
