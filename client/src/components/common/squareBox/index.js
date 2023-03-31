@@ -30,7 +30,7 @@ const SquareBox = ({ items }) => {
                     <div key={index} className="square-item">
                         <div>
                             <div className='image-button-wrapper'>
-                                <Link to={`${(item.name|| 'crypto')}/${item.symbol}`} className='image-wrapper'>
+                                <Link to={`${(item.name)}/${item.symbol}`} className='image-wrapper'>
                                     {item.image.length  ? <img className='image' src={item.image} alt="" />: ''}
                                 </Link>
                                 {

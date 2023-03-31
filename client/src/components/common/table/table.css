@@ -62,11 +62,6 @@
   color: inherit;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  max-width: 150px;
-}
 
 button {
   color: #00d09c;
@@ -92,9 +87,5 @@ button>svg:hover {
     margin-right: 0;
     text-align: left;
     padding: 5px;
-  }
-
-  img {
-    max-width: 100%;
   }
 }
