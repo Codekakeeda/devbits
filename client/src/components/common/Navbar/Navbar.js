@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import IndianStockCompanies from '../../../assets/IndianStockCompanies';
@@ -38,7 +38,7 @@ const Navbar = () => {
             </svg>
             <input placeholder="What are you looking for today?" type="text" value={searchTerm} onChange={handleChange} className='search-input' />
             {searchTerm && <ul className='search-results'>
-              {filteredData.length!==0 && filteredData.slice(0,10).map((item) => (
+              {filteredData.length !== 0 && filteredData.slice(0, 10).map((item) => (
                 <li key={item.id} className='search-result-wrapper'><Link to={`/explore/stocks/${item.name}/${item.symbol}`} className='search-result'>{item.name}</Link></li>
               ))}
             </ul>
@@ -59,14 +59,20 @@ const Navbar = () => {
             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
           </svg>
         </div>
-        <Link to='/user' className='profile-wrapper cursor-point'>
-          <img src="https://i.pinimg.com/originals/cf/cf/44/cfcf44bdb4af4877ae3c98f4d7177993.jpg"
-            alt="Profile"
-            className='header-profile-image' />
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-chevron-down absolute-center profile-options-icon" viewBox="0 0 16 16">
-            <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-          </svg>
-        </Link>
+        {!localStorage.getItem("token") && (
+          <Link to='/login' className='button-homepage'>Log In</Link>
+        )}
+        {localStorage.getItem("token") && (
+          <Link to='/user' className='profile-wrapper cursor-point'>
+            <img src="https://i.pinimg.com/originals/cf/cf/44/cfcf44bdb4af4877ae3c98f4d7177993.jpg"
+              alt="Profile"
+              className='header-profile-image' />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-chevron-down absolute-center profile-options-icon" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </Link>
+        )}
+
       </div>
     </div>
   )
