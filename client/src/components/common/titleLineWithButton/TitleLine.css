@@ -1,0 +1,34 @@
+.title-line{
+    display: flex;
+    flex-direction: row;
+    color: #44475b;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 730px;
+    font-size: .8rem;
+    margin-top: 12px;
+}
+.title-button{
+    background-color: #E5FAF5;
+    color: #00D09C;
+    font-weight:500;
+    border-radius: 30px;
+    border: none;
+    height: 35px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.title-button> svg{
+    margin-right: 5px;
+}
+
+.button-see-more{
+    color: #00D09C;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

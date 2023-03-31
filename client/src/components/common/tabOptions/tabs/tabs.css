@@ -1,0 +1,17 @@
+.tab-item{
+    margin-right: 24px;
+    padding: 12px ;
+    text-decoration: none;
+}
+.tab-name{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: var(--inactive-text);
+}
+.active-tab{
+    border-bottom: 2px solid var(--app-primaryClr);
+}
+.active-tab .tab-name{
+    color: var(--app-primaryClr);
+}

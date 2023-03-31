@@ -1,0 +1,101 @@
+.login-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.title{
+  font-size: 2rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    padding: 5px;
+    margin-top: 15px;
+    width: 400px;
+    height: 30px;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  .btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-primary {
+    color: #fff;
+    height: 40px;
+    width: 85%;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+    font-size: 1.3rem;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+  
+  .btn-primary:active {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  .btn-primary:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    opacity: 0.65;
+  }
+  
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+  }
+
+  .Link{
+    margin: 3px 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }

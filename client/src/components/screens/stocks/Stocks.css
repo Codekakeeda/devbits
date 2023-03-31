@@ -1,0 +1,9 @@
+.stock-component{
+    margin-top: 8px;
+}
+.stock-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+.chart-wrapper{
+    display: block;
+    justify-content: left;
+    align-items: center;
+    width: 55vw;
+}
+.stock-details{
+    height: 65vh;
+}

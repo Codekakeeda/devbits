@@ -1,0 +1,8 @@
+.tab-options{
+    margin-top: 15px;
+    box-shadow: var(--border-white) 0px -0.5px 0px inset;
+}
+.options-wrapper{
+    display: flex; 
+}
+

@@ -1,0 +1,106 @@
+.square-container {
+    display: flex;
+    overflow-x:hidden;
+    margin-top: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .square {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-bottom: 5px;
+    max-width: 752px;
+    color: #44475b;
+  }
+  
+  .square-item {
+    cursor: pointer;
+    padding: 0px 16px;
+    border: 0.2px solid #e4e4e4;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-left: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    flex: 0 0 auto;
+    max-height: 172px;
+    width: 138px;
+    white-space: pre-wrap;
+    text-decoration: none;
+    color: inherit;   
+  }
+  
+  .square-item:hover{
+    transform: scale(1.01);
+  }
+  .square-item:hover .add-btn{
+    display: block;
+  }
+  .image-button-wrapper{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .image-wrapper{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccccccd8;
+  }
+  .image{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    object-fit:contain;
+  }
+
+  .add-btn{
+    /* display: none; */
+    color: #00d09c;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .add-btn>svg:hover{
+    transform: scale(1.25);
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.5);
+    transition: 100ms ease-in-out;
+    display: flex;
+  }
+  .square-details{
+    text-decoration: none;
+    color: inherit;
+  }
+  .square-title{
+    font-size: 1rem;
+    margin: 8px 0px 0px 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.square-price-sec{
+  font-style: 1.2em;
+  margin: 0;
+
+}
+  .square-data{
+    display: flex;
+    font-display: row;
+    justify-content: left;
+    align-items: center;
+    height: 23px;
+    margin: 6px 0px 6px 0px;
+  }
+
+  .square-values{
+    margin-right: 12px;
+  }
