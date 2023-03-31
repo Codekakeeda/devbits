@@ -30,7 +30,7 @@ const App = () => {
         <Route path='/explore/crypto' element={<Crypto />} />
         <Route path='/explore/us-stocks' element={<UsStocks />} />
 
-        <Route path='/explore/:activeTab/:region/:id' element={<StockDetails />} />
+        <Route path='/explore/:activeTab/:name/:id' element={<StockDetails />} />
       </Routes>
       <Footer />
     </Router>

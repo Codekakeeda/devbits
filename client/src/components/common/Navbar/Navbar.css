@@ -97,3 +97,28 @@
     width: 9px;
     height: 9px;
 }
+
+.search-results{
+    position: absolute;
+    width: 350px;
+    max-height: 400px;
+    padding: 0.5rem;
+    color: #333;
+    background-color: var(--primary-bg);
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    list-style: none;
+    z-index: 10000000;
+}
+.search-result-wrapper{
+    margin-bottom: 2px;
+    padding: 3px;
+    border-bottom: 0.5px dashed #ccc;
+}
+.search-result{
+    text-decoration: none;
+    color: inherit;
+}

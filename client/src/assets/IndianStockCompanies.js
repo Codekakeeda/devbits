@@ -5,7 +5,7 @@ const IndianStockCompanies = [
         symbol: 'RELIANCE.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -16,7 +16,7 @@ const IndianStockCompanies = [
         symbol: 'TCS.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -27,7 +27,7 @@ const IndianStockCompanies = [
         symbol: 'HDFCBANK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -38,7 +38,7 @@ const IndianStockCompanies = [
         symbol: 'HINDUNILVR.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -49,7 +49,7 @@ const IndianStockCompanies = [
         symbol: 'INFY.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -60,7 +60,7 @@ const IndianStockCompanies = [
         symbol: 'ICICIBANK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -71,7 +71,7 @@ const IndianStockCompanies = [
         symbol: 'BHARTIARTL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -82,7 +82,7 @@ const IndianStockCompanies = [
         symbol: 'KOTAKBANK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -93,7 +93,7 @@ const IndianStockCompanies = [
         symbol: 'AXISBANK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -104,7 +104,7 @@ const IndianStockCompanies = [
         symbol: 'SBIN.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -115,7 +115,7 @@ const IndianStockCompanies = [
         symbol: 'WIPRO.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -126,7 +126,7 @@ const IndianStockCompanies = [
         symbol: 'HDFC.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -137,7 +137,7 @@ const IndianStockCompanies = [
         symbol: 'BAJFINANCE.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -148,7 +148,7 @@ const IndianStockCompanies = [
         symbol: 'ASIANPAINT.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -159,7 +159,7 @@ const IndianStockCompanies = [
         symbol: 'M&M.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -170,7 +170,7 @@ const IndianStockCompanies = [
         symbol: 'ONGC.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -181,7 +181,7 @@ const IndianStockCompanies = [
         symbol: 'TITAN.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -192,7 +192,7 @@ const IndianStockCompanies = [
         symbol: 'BPCL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -203,7 +203,7 @@ const IndianStockCompanies = [
         symbol: 'DRREDDY.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -214,7 +214,7 @@ const IndianStockCompanies = [
         symbol: 'POWERGRID.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -225,7 +225,7 @@ const IndianStockCompanies = [
         symbol: 'HINDALCO.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -236,7 +236,7 @@ const IndianStockCompanies = [
         symbol: 'TATASTEEL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -247,7 +247,7 @@ const IndianStockCompanies = [
         symbol: 'UPL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -258,7 +258,7 @@ const IndianStockCompanies = [
         symbol: 'GODREJCP.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -269,7 +269,7 @@ const IndianStockCompanies = [
         symbol: 'TECHM.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -280,7 +280,7 @@ const IndianStockCompanies = [
         symbol: 'BPCL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -290,7 +290,7 @@ const IndianStockCompanies = [
         symbol: 'INDUSINDBK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -301,7 +301,7 @@ const IndianStockCompanies = [
         symbol: 'GAIL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -312,7 +312,7 @@ const IndianStockCompanies = [
         symbol: 'DRREDDY.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -323,7 +323,7 @@ const IndianStockCompanies = [
         symbol: 'HINDALCO.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -334,7 +334,7 @@ const IndianStockCompanies = [
         symbol: 'GRASIM.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -345,7 +345,7 @@ const IndianStockCompanies = [
         symbol: 'TATACONSUM.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -356,7 +356,7 @@ const IndianStockCompanies = [
         symbol: 'HDFCLIFE.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -367,7 +367,7 @@ const IndianStockCompanies = [
         symbol: 'RELIANCE.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -378,7 +378,7 @@ const IndianStockCompanies = [
         symbol: 'HINDALCO.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -389,7 +389,7 @@ const IndianStockCompanies = [
         symbol: 'LT.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -400,7 +400,7 @@ const IndianStockCompanies = [
         symbol: 'TECHM.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -411,7 +411,7 @@ const IndianStockCompanies = [
         symbol: 'COALINDIA.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -421,7 +421,7 @@ const IndianStockCompanies = [
         symbol: 'NTPC.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -432,7 +432,7 @@ const IndianStockCompanies = [
         symbol: 'ONGC.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -443,7 +443,7 @@ const IndianStockCompanies = [
         symbol: 'HDFCBANK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -454,7 +454,7 @@ const IndianStockCompanies = [
         symbol: 'TATASTEEL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -465,7 +465,7 @@ const IndianStockCompanies = [
         symbol: 'ADANIPORTS.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -476,7 +476,7 @@ const IndianStockCompanies = [
         symbol: 'SBIN.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -487,7 +487,7 @@ const IndianStockCompanies = [
         symbol: 'TATAMOTORS.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -498,7 +498,7 @@ const IndianStockCompanies = [
         symbol: 'ABFRL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -509,7 +509,7 @@ const IndianStockCompanies = [
         symbol: 'BHARTIARTL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -520,7 +520,7 @@ const IndianStockCompanies = [
         symbol: 'COALINDIA.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -531,7 +531,7 @@ const IndianStockCompanies = [
         symbol: 'DRREDDY.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -542,7 +542,7 @@ const IndianStockCompanies = [
         symbol: 'GAIL.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -553,7 +553,7 @@ const IndianStockCompanies = [
         symbol: 'HCLTECH.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -564,7 +564,7 @@ const IndianStockCompanies = [
         symbol: 'HDFCBANK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -575,7 +575,7 @@ const IndianStockCompanies = [
         symbol: 'HINDPETRO.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -586,7 +586,7 @@ const IndianStockCompanies = [
         symbol: 'HINDUNILVR.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -597,7 +597,7 @@ const IndianStockCompanies = [
         symbol: 'INDUSINDBK.NS',
         region: 'IN',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []

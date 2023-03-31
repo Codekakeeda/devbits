@@ -49,7 +49,7 @@ const usCompanies = [
         symbol: 'GOOGL',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -60,7 +60,7 @@ const usCompanies = [
         symbol: 'TSLA',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -71,7 +71,7 @@ const usCompanies = [
         symbol: 'JNJ',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -82,7 +82,7 @@ const usCompanies = [
         symbol: 'PG',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -93,7 +93,7 @@ const usCompanies = [
         symbol: 'V',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -104,7 +104,7 @@ const usCompanies = [
         symbol: 'MA',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -115,7 +115,7 @@ const usCompanies = [
         symbol: 'WMT',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -126,7 +126,7 @@ const usCompanies = [
         symbol: 'KO',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -136,7 +136,7 @@ const usCompanies = [
         name: 'Pfizer Inc.', symbol: 'PFE',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -147,7 +147,7 @@ const usCompanies = [
         symbol: 'INTC',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -158,7 +158,7 @@ const usCompanies = [
         symbol: 'CSCO',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -169,7 +169,7 @@ const usCompanies = [
         symbol: 'VZ',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -180,7 +180,7 @@ const usCompanies = [
         symbol: 'CVX',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -191,7 +191,7 @@ const usCompanies = [
         symbol: 'T',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -202,7 +202,7 @@ const usCompanies = [
         symbol: 'MRK',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -213,7 +213,7 @@ const usCompanies = [
         symbol: 'ORCL',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -224,7 +224,7 @@ const usCompanies = [
         symbol: 'JCI',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -235,7 +235,7 @@ const usCompanies = [
         symbol: 'HD',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -246,7 +246,7 @@ const usCompanies = [
         symbol: 'UNH',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -257,7 +257,7 @@ const usCompanies = [
         symbol: 'NFLX',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -268,7 +268,7 @@ const usCompanies = [
         symbol: 'ABT',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -279,7 +279,7 @@ const usCompanies = [
         symbol: 'AXP',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -290,7 +290,7 @@ const usCompanies = [
         symbol: 'BMY',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -301,7 +301,7 @@ const usCompanies = [
         symbol: 'CMCSA',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -312,7 +312,7 @@ const usCompanies = [
         symbol: 'DOW',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -323,7 +323,7 @@ const usCompanies = [
         symbol: 'WMT',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -334,7 +334,7 @@ const usCompanies = [
         symbol: 'MA',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -345,7 +345,7 @@ const usCompanies = [
         symbol: 'GS',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -356,7 +356,7 @@ const usCompanies = [
         symbol: 'HD',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -367,7 +367,7 @@ const usCompanies = [
         symbol: 'NKE',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -378,7 +378,7 @@ const usCompanies = [
         symbol: 'KO',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -389,7 +389,7 @@ const usCompanies = [
         symbol: 'JNJ',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -400,7 +400,7 @@ const usCompanies = [
         symbol: 'VZ',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -411,7 +411,7 @@ const usCompanies = [
         symbol: 'UNH',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -422,7 +422,7 @@ const usCompanies = [
         symbol: 'PFE',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -434,7 +434,7 @@ const usCompanies = [
         symbol: 'CSCO',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -445,7 +445,7 @@ const usCompanies = [
         symbol: 'DIS',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -456,7 +456,7 @@ const usCompanies = [
         symbol: 'IBM',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []
@@ -467,7 +467,7 @@ const usCompanies = [
         symbol: 'MCD',
         region: 'US',
         watchlisted: false,
-        price: 0,
+        price: 34540,
         price_change_24h:12,
         price_change_percentage_24h:12,
         timeSeries: []

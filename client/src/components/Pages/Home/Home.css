@@ -1,0 +1,84 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: #333;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .button-homepage {
+    text-decoration: none;
+    background-color: #78b216cd;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    border: 0.2px solid #e4e4e4;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    border: 0.2px solid #e4e4e4;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 700px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+
+  .feature h2{
+    font-size: 25px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .feature p{
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .last-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }

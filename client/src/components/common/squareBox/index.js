@@ -30,7 +30,7 @@ const SquareBox = ({ items }) => {
                     <div key={index} className="square-item">
                         <div>
                             <div className='image-button-wrapper'>
-                                <Link to={`${(item.region|| 'crypto')}/${item.symbol}`} className='image-wrapper'>
+                                <Link to={`${(item.name|| 'crypto')}/${item.symbol}`} className='image-wrapper'>
                                     {item.image.length  ? <img className='image' src={item.image} alt="" />: ''}
                                 </Link>
                                 {
@@ -39,7 +39,7 @@ const SquareBox = ({ items }) => {
                                         </button>
                                 }
                             </div>
-                            <Link to={`${item.region}/${item.symbol}`} className='square-details'>
+                            <Link to={`${item.name}/${item.symbol}`} className='square-details'>
                                 <h5 className='square-title'>{item.name}</h5>
                                 <h4 className='square-price-sec'>₹{item.price || item.current_price}</h4>
 

@@ -3,12 +3,9 @@ import axios from "axios";
 import { useParams } from 'react-router-dom'
 import './StockDetails.css'
 import CommonChart from '../../common/chart'
-// import api_response from '../../../assets/roughWorkFile';
 
 const StockDetails = () => {
-  const { id, region } = useParams();
-
-
+  const { id, name } = useParams();
 
   const [Api_response, setApi_response] = useState({});
 
@@ -42,10 +39,15 @@ const StockDetails = () => {
 
   return (
     <div className='max-width stock-details'>
-      <h1>{id}</h1>
+      <h1>{name}</h1>
 
       <div className='chart-wrapper'>
         <CommonChart api_response={Api_response} />
+        <div className='option-of-chart'>
+          <h2>Buy this stock</h2>
+          <input placeholder='Enter Amount' type='number' className='amount-input'/>
+          <button className='button-homepage'>Buy</button>
+        </div>
       </div>
     </div>
   )

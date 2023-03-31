@@ -43,34 +43,34 @@ const CommonChart = ({ type = 'candlestick', api_response }) => {
 
 
         // Use reduce to group the data by week
-        const weeklyData = convertedData.reduce((acc, dataPoint) => {
-            const weekStart = new Date(dataPoint.x.getTime());
-            weekStart.setUTCHours(0, 0, 0, 0);
-            weekStart.setUTCDate(dataPoint.x.getUTCDate() - dataPoint.x.getUTCDay());
+        // const weeklyData = convertedData.reduce((acc, dataPoint) => {
+        //     const weekStart = new Date(dataPoint.x.getTime());
+        //     weekStart.setUTCHours(0, 0, 0, 0);
+        //     weekStart.setUTCDate(dataPoint.x.getUTCDate() - dataPoint.x.getUTCDay());
 
-            const weekEnd = new Date(weekStart.getTime());
-            weekEnd.setUTCDate(weekStart.getUTCDate() + 7);
+        //     const weekEnd = new Date(weekStart.getTime());
+        //     weekEnd.setUTCDate(weekStart.getUTCDate() + 7);
 
-            const weekIndex = `${weekStart.getUTCFullYear()}-W${String(
-                weekStart.getUTCMonth() + 1
-            ).padStart(2, "0")}-${String(weekStart.getUTCDate()).padStart(2, "0")}`;
+        //     const weekIndex = `${weekStart.getUTCFullYear()}-W${String(
+        //         weekStart.getUTCMonth() + 1
+        //     ).padStart(2, "0")}-${String(weekStart.getUTCDate()).padStart(2, "0")}`;
 
-            if (!acc[weekIndex]) {
-                acc[weekIndex] = {
-                    data: [],
-                };
-            }
+        //     if (!acc[weekIndex]) {
+        //         acc[weekIndex] = {
+        //             data: [],
+        //         };
+        //     }
 
-            acc[weekIndex].data.push(dataPoint);
+        //     acc[weekIndex].data.push(dataPoint);
 
-            return acc;
-        }, {});
+        //     return acc;
+        // }, {});
 
         // Convert the weekly data object to an array and create a series object
-        const newWeeklySeries = Object.keys(weeklyData).map((weekIndex) => ({
-            name: weekIndex,
-            data: weeklyData[weekIndex].data,
-        }));
+        // const newWeeklySeries = Object.keys(weeklyData).map((weekIndex) => ({
+        //     name: weekIndex,
+        //     data: weeklyData[weekIndex].data,
+        // }));
 
         // Set the series state with the new series object
         // const week1Data = newWeeklySeries[0].data;
